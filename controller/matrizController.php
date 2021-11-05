@@ -1,10 +1,10 @@
 <?php
 
-$matrix = array();
-
+$matriz = array();
+// estrutura de repeticao com rand de 0 a 50 para a matriz 5x5
 for ($i = 0; $i < 5; $i++) {
     for ($j = 0; $j < 5; $j++) {
-        $matrix[$i][$j] = rand(0, 50);
+        $matriz[$i][$j] = rand(0, 50);
     }
 }
 

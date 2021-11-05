@@ -1,6 +1,6 @@
 <?php
 
-$rota = "matrixController";
+$rota = "matrizController";
 
 if (array_key_exists("rota", $_GET)) {
 	$rota = (string) $_GET["rota"];

@@ -6,26 +6,24 @@
         </div>
         <div class="col"></div>
     </div>
+    <!-- tabela com a estrura de repeticao da matriz 5x5 principal-->
     <table class="table">
         <?php
         for ($i = 0; $i < 5; $i++) {
             for ($j = 0; $j < 4; $j++) {
                 if ($j == 0) {
-                    echo "<tr><td>" . $matrix[$i][$j] . "</td>";
+                    echo "<tr><td>" . $matriz[$i][$j] . "</td>";
                 }
                 if ($j == 5) {
-                    echo "<td>" . $matrix[$i][$j] . "</td></tr>";
+                    echo "<td>" . $matriz[$i][$j] . "</td></tr>";
                 } else {
-                    echo "<td>" . $matrix[$i][$j] . "</td>";
+                    echo "<td>" . $matriz[$i][$j] . "</td>";
                 }
             }
         }
         ?>
     </table>
 </div>
-
-
-
 <div class="container">
     <div class="table-responsive">
         <div class="col"></div>
@@ -34,18 +32,19 @@
         </div>
         <div class="col"></div>
     </div>
+    <!-- tabela com a estrura de repeticao da matriz dos numeros pares-->
     <table class="table">
         <?php
         for ($i = 0; $i < 5; $i++) {
             for ($j = 0; $j < 5; $j++) {
-                if ($matrix[$i][$j] % 2 == 0) {
+                if ($matriz[$i][$j] % 2 == 0) {
                     if ($j == 0) {
-                        echo "<tr><td>" . $matrix[$i][$j] . "</td>";
+                        echo "<tr><td>" . $matriz[$i][$j] . "</td>";
                     }
                     if ($j == 4) {
-                        echo "<td>" . $matrix[$i][$j] . "</td></tr>";
+                        echo "<td>" . $matriz[$i][$j] . "</td></tr>";
                     } else {
-                        echo "<td>" . $matrix[$i][$j] . "</td>";
+                        echo "<td>" . $matriz[$i][$j] . "</td>";
                     }
                 }
             }
@@ -62,18 +61,20 @@
         </div>
         <div class="col"></div>
     </div>
+    <!-- tabela com a estrura de repeticao da matriz dos numeros impares-->
+
     <table class="table">
         <?php
         for ($i = 0; $i < 5; $i++) {
             for ($j = 0; $j < 5; $j++) {
-                if ($matrix[$i][$j] % 2 <> 0) {
+                if ($matriz[$i][$j] % 2 <> 0) {
                     if ($j == 0) {
-                        echo "<tr><td>" . $matrix[$i][$j] . "</td>";
+                        echo "<tr><td>" . $matriz[$i][$j] . "</td>";
                     }
                     if ($j == 4) {
-                        echo "<td>" . $matrix[$i][$j] . "</td></tr>";
+                        echo "<td>" . $matriz[$i][$j] . "</td></tr>";
                     } else {
-                        echo "<td>" . $matrix[$i][$j] . "</td>";
+                        echo "<td>" . $matriz[$i][$j] . "</td>";
                     }
                 }
             }
