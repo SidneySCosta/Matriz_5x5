@@ -1,7 +1,7 @@
 # Problema 3 - App Facilita
 
 ## 🗒 Sobre
-Criar um algoritmo com uma matriz 5x5 e imprima: toda a matriz, a matriz gerada só com números ímpares e outra só com números pares.
+Criar um algoritmo que gere uma matriz 5x5 e imprima: toda a matriz, a matriz gerada apenas com os numeros ímpares  e a outra so com os numeros pares
 
 ## 🚀 Techs
 Usando as seguintes tecnologias:
