@@ -3,8 +3,8 @@
 ## 🗒 About
 Algorithm that generates a 5x5 matrix;
 print: the whole matrix;
-print: the array generated with only odd numbers
-print: and the other only with even numbers
+print: the array generated with only odd numbers;
+print: and the other only with even numbers.
 
 ## 🚀 Techs
 - PHP
