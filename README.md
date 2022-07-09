@@ -1,17 +1,19 @@
-# Problema 3 - App Facilita
+# Logical program in php 
 
-## 🗒 Sobre
-Criar um algoritmo que gere uma matriz 5x5 e imprima: toda a matriz, a matriz gerada apenas com os numeros ímpares  e a outra so com os numeros pares
+## 🗒 About
+Algorithm that generates a 5x5 matrix;
+print: the whole matrix;
+print: the array generated with only odd numbers
+print: and the other only with even numbers
 
 ## 🚀 Techs
-Usando as seguintes tecnologias:
 - PHP
 - MVC 
 - HTML
 - CSS
 - BOOTSTRAP 
 
-## 📥 Como baixar o projeto
+## 📥 Download project
 
 ```bash
 $ git clone https://github.com/SidneySCosta/Matriz_5x5.git
